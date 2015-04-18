@@ -1,4 +1,52 @@
-# Perguntas frequentes sobre os relatórios de sessão. 
+# Perguntas Frequentes
+
+
+## O que é o EAM?
+ 
+O EAM (Emparelhamento ao modelo) é um software de ensino individualizado concebido em um contexto de pesquisa básica. Ele permite edição e execução de Arquivos de Sessão de acordo com desenhos experimentais ou planejamentos de ensino.
+ 
+## O que é um Arquivo de Sessão?
+ 
+Um Arquivo de Sessão é um arquivo de configuração. Sua extenção é *.txt. Ao editar um arquivo de sessão, é possível dizer que você está programando um desenho experimental ou planejamento de ensino, pois esses arquivos possuem uma linguagem própria e uma estrutura característica.
+ 
+O arquivo de sessão permite grande customização e pode ser alterado diretamente, sempre que requisitado.
+ 
+## Como se planeja um Arquivo de Sessão?
+ 
+O EAM não possui ferramentas especificamente desevolvidas para o planejamento de arquivos de sessão. O EAM também não possui recursos de geração de arquivos de sessão a partir de outras ferramentas ou arquivos de planejamento.
+ 
+## Como se escreve um Arquivo de Sessão?
+ 
+É necessário conhecer a estrutura e a linguagem do Arquivo de Sessão. Esses são conhecimentos indispensáveis para que pequenas alterações ou o reaproveitamento de outros arquivos de sessão sejam alcançadas com êxito.
+É importante ter em mente que, quanto mais linhas, torna-se humanamente impossível escrever diretamente um arquivo de sessão em tempo hábil e sem erros mesmo conhecendo sua estrutura e linguagem. Para arquivos de sessão complexos (maiores do que 1.500 linhas), recomenda-se o uso da interface de edição/visualização de arquivos de sessão.
+Consulte o ‘Manual de Uso da Interface do EAM’ para procedimentos de edição/visualização e análise de dados. Consulte os itens subsequentes para procedimentos de edição direta do arquivo de sessão.
+
+## Existem softwares livres que podem ajudar na tarefa de edição de um Arquivo de Sessão?
+ 
+Sim. Recomenda-se o uso do software NotePAd++ (http://notepad-plus-plus.org/download/v6.5.html) para a localização e substituição de parâmetros. É possível também utilizar a opção de localição e substituição do Notepad, software padrão de edição de texto do Windows ©, e de qualquer outro programa.
+ 
+## Qual a estrutura dos Arquivos de Sessão?
+ 
+Cada arquivo possui uma estrutura no formato de “arquivos de configuração *.ini”:
+  
+    [Secção1]
+        Chave=​parâmetro valor1 valor2
+        Chave2=​
+ 
+    [Secção2]
+        Chave 2=​parâmetro valor1
+        Chave=​parâmetro
+ 
+ 
+OBS.: Atenção ao uso de tabulação entre chaves e parâmetros, o espaço é utilizado como referência para alguns parâmetros e valores.
+ 
+OBS.: Atenção para letras maiúsculas e minúsculas e acentos, pois são aspectos sensíveis da linguagem, ou seja, afetam a configuração do arquivo.
+
+## A ordem dessa estrutura é importante?
+ 
+A ordem de aparecimento de cada [Secção] no arquivo de sessão não afeta sua configuração. Entretanto, há uma convenção de apresentá-las de acordo com a estrutura hierárquica do mais geral para o mais específico, com objetivo de facilitar a leitura. Cada [Secção] possui seu próprio conjunto de chaves. A ordem das chaves de uma mesma secção também não é importante. Frisa-se que a ordem de escrita dos valores de um parâmetro é importante.
+
+# Perguntas frequentes sobre os relatórios de sessão.
 
 ## Quais são os relatórios do EAM? 
 O EAM possui dois tipos de arquivos de relatório `Dados_001.txt`  e `Ticks_001.txt`. 
