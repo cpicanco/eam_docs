@@ -1,10 +1,9 @@
 # Perguntas Frequentes
 
-
 ## O que é o EAM?
  
 O EAM (Emparelhamento ao modelo) é um software de ensino individualizado concebido em um contexto de pesquisa básica. Ele permite edição e execução de Arquivos de Sessão de acordo com desenhos experimentais ou planejamentos de ensino.
- 
+
 ## O que é um Arquivo de Sessão?
  
 Um Arquivo de Sessão é um arquivo de configuração. Sua extenção é *.txt. Ao editar um arquivo de sessão, é possível dizer que você está programando um desenho experimental ou planejamento de ensino, pois esses arquivos possuem uma linguagem própria e uma estrutura característica.
@@ -13,14 +12,29 @@ O arquivo de sessão permite grande customização e pode ser alterado diretamen
  
 ## Como se planeja um Arquivo de Sessão?
  
-O EAM não possui ferramentas especificamente desevolvidas para o planejamento de arquivos de sessão. O EAM também não possui recursos de geração de arquivos de sessão a partir de outras ferramentas ou arquivos de planejamento.
- 
+Recomenda-se que durante o planejamento de uma sessão, se identifiquem semelhanças entre tentativas. A interface de edição e visualização de arquivos de sessão pode economizar tempo e trabalho quanto maiores forem as semelhanças entre as tentativas de uma sessão. Tal etapa de planejamento é importante para o melhor aproveitamento da interface. O EAM, entretanto, não possui ferramentas especificamente desevolvidas para auxiliar nesse planejamento.
+
 ## Como se escreve um Arquivo de Sessão?
  
 É necessário conhecer a estrutura e a linguagem do Arquivo de Sessão. Esses são conhecimentos indispensáveis para que pequenas alterações ou o reaproveitamento de outros arquivos de sessão sejam alcançadas com êxito.
 É importante ter em mente que, quanto mais linhas, torna-se humanamente impossível escrever diretamente um arquivo de sessão em tempo hábil e sem erros mesmo conhecendo sua estrutura e linguagem. Para arquivos de sessão complexos (maiores do que 1.500 linhas), recomenda-se o uso da interface de edição/visualização de arquivos de sessão.
-Consulte o ‘Manual de Uso da Interface do EAM’ para procedimentos de edição/visualização e análise de dados. Consulte os itens subsequentes para procedimentos de edição direta do arquivo de sessão.
-
+
+## Quando devo utilizar a interface de edição e visualização de arquivos de sessão do EAM?
+
+ - Quando houver a necessidade de escrever arquivos de sessão do início, pois não há ou não se tem acesso a um arquivo de sessão que possa ser reaproveitado;
+ - Tendo  acesso  a  um  arquivo  de  sessão  que  possa  ser  reaproveitado;
+ - quando houver a necessidade de editar, aleatorizar ou conferir a posição de muitos estímulos;
+ - editar, aleatorizar ou conferir a ordem de muitas tentativas;
+ - editar ou conferir os mesmos parâmetros de diferentes tentativas; 
+ - editar ou conferir os mesmos parâmetros de diferentes blocos.
+ 
+## Quando não devo utilizar a interface de edição e visualização?
+
+Recomenda-se  a  edição direta dos  arquivos  de sessão  por  meio do  NotePad++ ou Notepad do Windows© quando houver necessidade de:
+ - edição ou conferência do nome da pasta de estímulos;
+ - edição ou conferência de um único parâmetro de um bloco, ou tentativa, etc;
+ - localização  e  substituição  de  uma  matriz  de  estímulos  por  outra  (códigos  das posições na Secção [Positions] e nas chaves *Bnd=).
+
 ## Existem softwares livres que podem ajudar na tarefa de edição de um Arquivo de Sessão?
  
 Sim. Recomenda-se o uso do software NotePAd++ (http://notepad-plus-plus.org/download/v6.5.html) para a localização e substituição de parâmetros. É possível também utilizar a opção de localição e substituição do Notepad, software padrão de edição de texto do Windows ©, e de qualquer outro programa.
@@ -86,16 +100,16 @@ Hora de Início:hh:mm:ss AM/PM
 # Tempo de término da sessão, de acordo com o relógio do sistema operacional do computador. 
 Hora de Término: hh:mm:ss AM/PM
 ```
-#### Corpo
+#### Corpo:
 O corpo é formado por colunas e linhas. Cada coluna é uma variável de registro referente a um bloco ou a uma tentativa da sessão.
 
-#### Blocos
+##### Blocos
 
 > Nome do Bloco. 
 
 Definido no Arquivo de Sessão: `[Blc 1] > Name= Nome do Bloco`. Apenas o nome é mostrado, logo acima das tentativas do bloco. 
 
-#### Tentativas
+##### Tentativas
 
 > Núm.Tent. 
 
@@ -105,7 +119,7 @@ Número da tentativa. Composto por dois números. O primeiro é o número da ten
 
 Nome da tentativa. Definido no Arquivo de Sessão: `[Blc 1 - T1] > Name=`. 
 
-#### Modelo
+##### Modelo
 
 > Pos.Mod. 
 
@@ -192,7 +206,7 @@ As coordenadas `top-left` de respostas ao fundo da tela, no qual `top` refere-se
 
 Esse arquivo contém informações sobre cada resposta ao longo de uma sessão. Com ele é possível obter o tempo entre cada resposta.
 
-#### Tentativas
+##### Tentativas
 
 > Tempo_ms 
 
