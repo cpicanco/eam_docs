@@ -1,6 +1,6 @@
 # eam_docs
 
-Este repositório reunirá toda a documentação disponível sobre o programa de pesquisa EAM 4.2 (Emparelhamento ao Modelo).
+Este repositório reunirá toda a documentação disponível sobre o programa de pesquisa EAM (Emparelhamento ao Modelo).
 
 Ele poderá conter, por exemplo:
 
