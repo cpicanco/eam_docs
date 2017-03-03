@@ -2,17 +2,17 @@
 
 ## O que é o EAM?
  
-O EAM (Emparelhamento ao modelo) é um software de ensino individualizado concebido em um contexto de pesquisa básica. Ele permite edição e execução de Arquivos de Sessão de acordo com desenhos experimentais ou planejamentos de ensino.
+O EAM (Emparelhamento ao modelo) é um software de pesquisa do comportamento de escolha concebido para funcionar em um contexto de  ensino individualizado e testes de aprendizagem. Ele permite o planejamento de tentativas discretas com alternativas dispostas na tela de um monitor em posições programadas. Para programar uma sessão com uma sequência de tentativas o software lê um Arquivo de Sessão no qual os valores das variáveis são dispostos em sequência de acordo com desenhos experimentais ou planejamentos de ensino. O software registra e fornece um relatório de sessão com os valores por tentativa das variáveis fornecidas no Arquivo de Sessão e as escolhas feitas pelo indivíduo.
 
 ## O que é um Arquivo de Sessão?
  
-Um Arquivo de Sessão é um arquivo de configuração. Sua extenção é *.txt. Ao editar um arquivo de sessão, é possível dizer que você está programando um desenho experimental ou planejamento de ensino, pois esses arquivos possuem uma linguagem própria e uma estrutura característica.
+Um Arquivo de Sessão é um arquivo de configuração. Sua extensão é *.txt. Ao editar um arquivo de sessão, é possível dizer que você está programando uma sessão experimental ou planejando uma sessão de ensino. Esses arquivos possuem uma linguagem própria que o software lê e executa (por exemplo, dado o nome de um arquivo ".jpg"  e uma posição na tela o software carrega esse arquivo e mostra na tela a figura correspondente na posição lida. O Arquivo de Sessão tem uma estrutura característica, com variáveis globais que funcionam para uma sessão e locais que funcionam para uma tentativa.
  
-O arquivo de sessão permite grande customização e pode ser alterado diretamente, sempre que requisitado.
+O arquivo de sessão permite o planejamento de uma grande variedade de situações de escolha e pode ser editado diretamente, para programar uma nova sessão a partir de modificaçes de uma sessão já pronta.
  
 ## Como se planeja um Arquivo de Sessão?
  
-Recomenda-se que durante o planejamento de uma sessão, se identifiquem semelhanças entre tentativas. A interface de edição e visualização de arquivos de sessão pode economizar tempo e trabalho quanto maiores forem as semelhanças entre as tentativas de uma sessão. Tal etapa de planejamento é importante para o melhor aproveitamento da interface. O EAM, entretanto, não possui ferramentas especificamente desevolvidas para auxiliar nesse planejamento.
+Definem-se primeiro os valores globais. Quantas tentativas terá a sessão? Serão tentativas de escolha simples ou condicional? Recomenda-se que durante o planejamento de uma sessão, se identifiquem semelhanças entre tentativas. Tentativas com um mesmo conjunto de alternativas podem ser repetidas e alternadas, e as posiçes em que as alternativas aparecem na tela podem ser randomizadas. A interface de edição e visualização de arquivos de sessão pode economizar tempo e trabalho quanto maiores forem as semelhanças entre as tentativas de uma sessão. Tal etapa de planejamento é importante para o melhor aproveitamento da interface. O planejamento das sessões obedece princípios da área de pesquisa do pesquisador, o software admite qualquer tipo de tentativa legível, o ensino e os testes são fruto de planejamento anterior ao momento em que o pesquisador prepara o arquivo de sessão. 
 
 ## Como se escreve um Arquivo de Sessão?
  
@@ -21,14 +21,14 @@ Recomenda-se que durante o planejamento de uma sessão, se identifiquem semelhan
 
 ## Quando devo utilizar a interface de edição e visualização de arquivos de sessão do EAM?
 
- - Quando houver a necessidade de escrever arquivos de sessão do início, pois não há ou não se tem acesso a um arquivo de sessão que possa ser reaproveitado;
+ - Quando houver a necessidade de escrever arquivos de sessão do início, por não haver ou não se tiver acesso a um arquivo de sessão que possa ser reaproveitado;
  - Tendo  acesso  a  um  arquivo  de  sessão  que  possa  ser  reaproveitado;
  - quando houver a necessidade de editar, aleatorizar ou conferir a posição de muitos estímulos;
  - editar, aleatorizar ou conferir a ordem de muitas tentativas;
  - editar ou conferir os mesmos parâmetros de diferentes tentativas; 
  - editar ou conferir os mesmos parâmetros de diferentes blocos.
  
-## Quando não devo utilizar a interface de edição e visualização?
+## Quando devo utilizar a edição direta do arquivo de sessão e não utilizar a interface de edição e visualização?
 
 Recomenda-se  a  edição direta dos  arquivos  de sessão  por  meio do  NotePad++ ou Notepad do Windows© quando houver necessidade de:
  - edição ou conferência do nome da pasta de estímulos;
@@ -37,7 +37,7 @@ Recomenda-se  a  edição direta dos  arquivos  de sessão  por  meio do  NotePa
 
 ## Existem softwares livres que podem ajudar na tarefa de edição de um Arquivo de Sessão?
  
-Sim. Recomenda-se o uso do software NotePAd++ (http://notepad-plus-plus.org/download/v6.5.html) para a localização e substituição de parâmetros. É possível também utilizar a opção de localição e substituição do Notepad, software padrão de edição de texto do Windows ©, e de qualquer outro programa.
+Sim. Recomenda-se o uso do software NotePAd++ (http://notepad-plus-plus.org/download/v6.5.html) para a localização e substituição de parâmetros. É possível também utilizar a opção de localização e substituição do Notepad, software padrão de edição de texto do Windows ©, e de qualquer outro programa de edição de arquivos do tipo ".txt".
  
 ## Qual a estrutura dos Arquivos de Sessão?
  
@@ -52,7 +52,7 @@ Cada arquivo possui uma estrutura no formato de “arquivos de configuração *.
         Chave=​parâmetro
  
  
-OBS.: Atenção ao uso de tabulação entre chaves e parâmetros, o espaço é utilizado como referência para alguns parâmetros e valores.
+OBS.: Atenção ao uso de tabulação entre chaves e parâmetros, o espaço é utilizado pelo software como referência para alguns parâmetros e valores.
  
 OBS.: Atenção para letras maiúsculas e minúsculas e acentos, pois são aspectos sensíveis da linguagem, ou seja, afetam a configuração do arquivo.
 
@@ -69,7 +69,7 @@ O EAM possui dois tipos de arquivos de relatório `Dados_001.txt`  e `Ticks_001.
 O EAM nunca salvará um arquivo por cima de outro já existente. Por exemplo, ao nomear como `Dados_001.txt`, se este arquivo já existe, o novo arquivo será automaticamente renomeado para `Dados_002.txt`. 
 
 ## Qual o formato dos arquivos de relatório?
-O arquivo segue um formato tabelado, com o caracter ASCII DEC 9 (TAB) como separador. Para visualizar os relatórios rapidamente, recomenda-se o uso de gerenciados de ficheiros como o programa Excel do pacote Microsoft© Office ou Gnumeric.  
+O arquivo segue um formato tabelado, com o caracter ASCII DEC 9 (TAB) como separador. Para visualizar os relatórios rapidamente, recomenda-se o uso de gerenciadores de planilhas como o programa Excel do pacote Microsoft© Office ou Gnumeric.  
 
 ## Como analisar os dados dos relatórios? 
 Nunca altere o conteúdo dos arquivos de relatório originalmente produzidos. Faça uma cópia de segurança dos arquivos a serem analisados. Em seguida, recomenda-se o uso de macros, scripts em Python, a linguagem R, ou outras linguagens que possibilitem a automação da análise dos relatórios, e de uma eventual formatação se necessária. 
