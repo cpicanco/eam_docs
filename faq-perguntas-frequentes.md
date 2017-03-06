@@ -60,6 +60,446 @@ OBS.: Atenção para letras maiúsculas e minúsculas e acentos, pois são aspec
  
 A ordem de aparecimento de cada [Secção] no arquivo de sessão não afeta sua configuração. Entretanto, há uma convenção de apresentá-las de acordo com a estrutura hierárquica do mais geral para o mais específico, com objetivo de facilitar a leitura. Cada [Secção] possui seu próprio conjunto de chaves. A ordem das chaves de uma mesma secção também não é importante. Frisa-se que a ordem de escrita dos valores de um parâmetro é importante.
 
+## Exemplo de Arquivo de Sessão (textos entre chaves [] não são lidos pelo programa; entre chaves {} foram explicações acrescentadas):
+
+[Main]
+
+Name=	DSS VIC NOVO TREINO
+Type=	CRT
+HootMedia=	EstÌmulos N.N
+HootData=	DADOS VICT”RIA
+NumBlc=	2
+
+[Positions]
+
+Rows=	4
+Cols=	4
+NumPos=	16
+
+P1=	162 290 100 100
+P2=	162 490 100 100
+P3=	162 690 100 100
+P4=	162 890 100 100
+P5=	362 290 100 100
+P6=	362 490 100 100
+P7=	362 690 100 100
+P8=	362 890 100 100
+P9=	562 290 100 100
+P10=	562 490 100 100
+P11=	562 690 100 100
+P12=	562 890 100 100
+P13=	762 290 100 100
+P14=	762 490 100 100
+P15=	762 690 100 100
+P16=	762 890 100 100
+[Blc 1]
+
+[{As oito primeiras linhas são variáveis de sessão: nome, tipo, pasta de arquivos, número de blocos na sessão, posição dos estímulos na tela, no caso estão programadas 16 posições em uma matriz 4 por 4. As linhas P1 a P16 mostram as coordenadas das posições na tela. 0 0 é o canto superior esquerdo. P1 a P4 são as janelas da linha superior, P5 a P8 segunda linha, P9 a P12 terceira linha e P13 a P16 a linha de baixo}]
+
+Name=	Bloco 1
+BkGnd=	0
+ITI=	5000
+NumCrt=	2
+NumTrials=	30 0
+ConsecutiveHitCriterion=	10
+ConsecutiveMissCriterion=	0
+MaxTrialCriterion=	30
+
+[{As linhas 100 a 118 referem-se às variáveis do Bloco 1: 100 Bloco; 101 cor do fundo; 102 valor do IET em milisegundos, intervalo entre tentativas ou ITI intertrial interval; 103 Janela correta 2 (segunda janela da primeira linha; 104 número de tentativas do bloco; 105 critério de encerramento por acertos consecutivos; 106 critério de encerramento por erros consecutivos; 107 máximo de tentativas do bloco}]
+
+[Blc 1 - T1] [{Aqui começa a tentativa 1 do Bloco 1}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE [{Tipo: pode ser simples ou condicional}]
+BkGnd=	0 [{cor do fundo}]
+Cursor=	-1 [{-1 cursor invisível; 0 cursor visível}]
+AutoNxt=	-1 [{?}]
+CustomNxtValue=	0 [{vai para a próxima tentativa}]
+NumComp=	3 [{número de escolhas, no caso de 1 a 16}]
+
+C1Bnd=	762 290 100 100 [{posição da comparação 1, S+ ou certa}]
+C1Stm=	D4.jpg 0 255 [{nome do arquivo a aparecer na posição 1}]
+C1Sch=	FR 2 [{esquema ou requisito de respostas, no caso so exigidos 2 toques na comparação 1}]
+C1IET=	Escolher 0 255 [{?}]
+C1Usb=	3 [{porta USB acionada}]
+C1Csq=	0 [{consequência programada: 0 acionamento externo, 1 consequência na tela}]
+C1Msg=	D4 [{arquivo a ser mostrado como consequência}]
+C1Res=	HIT [{Se a resposta ocorrer na C1 = acerto}]
+C1Nxt=	0 [{próxima tentativa: 0 próxima, ?}]
+C1TO=	[{?}]
+
+C2Bnd=	162 690 100 100 [{posição da comparação 2, S- ou errada}]
+C2Stm=	D5.jpg 0 255
+C2Sch=	FR 2
+C2IET=	Escolher 0 255
+C2Usb=	0  [{porta USB desligada}]
+C2Csq=	0
+C2Msg=	D5  [{mensagem para erro}]
+C2Res=	MISS  [{Se a resposta ocorrer na C2 = erro}]
+C2Nxt=	CRT  [{se a resposta foi em C2 apresentar de novo a tentativa, correção}]
+C2TO=	
+
+C3Bnd=	362 690 100 100 [{posição da comparação 3, S- ou errada}]
+C3Stm=	A6.jpg 0 255
+C3Sch=	FR 2
+C3IET=	Escolher 0 255
+C3Usb=	0
+C3Csq=	0
+C3Msg=	A6
+C3Res=	MISS
+C3Nxt=	CRT
+C3TO=	
+
+[Blc 1 - T2] [{Aqui começa a tentativa 2 do Bloco 1}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	3
+
+C1Bnd=	162 890 100 100
+C1Stm=	C4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	C4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+C2Bnd=	362 490 100 100
+C2Stm=	D5.jpg 0 255
+C2Sch=	FR 2
+C2IET=	Escolher 0 255
+C2Usb=	0
+C2Csq=	0
+C2Msg=	D5
+C2Res=	MISS
+C2Nxt=	CRT
+C2TO=	
+
+C3Bnd=	162 690 100 100
+C3Stm=	B6.jpg 0 255
+C3Sch=	FR 2
+C3IET=	Escolher 0 255
+C3Usb=	0
+C3Csq=	0
+C3Msg=	B6
+C3Res=	MISS
+C3Nxt=	CRT
+C3TO=	
+
+[Blc 1 - T3] [{Aqui começa a tentativa 3, do Bloco 1, etc}]
+
+[{...}]
+
+[Blc 1 - T30]  [{Aqui começa a tentativa 30 do Bloco 1}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	3
+
+C1Bnd=	762 290 100 100
+C1Stm=	B4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	B4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+C2Bnd=	162 890 100 100
+C2Stm=	B5.jpg 0 255
+C2Sch=	FR 2
+C2IET=	Escolher 0 255
+C2Usb=	0
+C2Csq=	0
+C2Msg=	B5
+C2Res=	MISS
+C2Nxt=	CRT
+C2TO=	
+
+C3Bnd=	762 490 100 100
+C3Stm=	D6.jpg 0 255
+C3Sch=	FR 2
+C3IET=	Escolher 0 255
+C3Usb=	0
+C3Csq=	0
+C3Msg=	D6
+C3Res=	MISS
+C3Nxt=	CRT
+C3TO=	
+
+[Blc 2]  [{Aqui começa o Bloco 2}]
+
+Name=	Bloco 2
+BkGnd=	0
+ITI=	5000
+NumCrt=	2
+NumTrials=	30 0
+ConsecutiveHitCriterion=	10
+ConsecutiveMissCriterion=	0
+MaxTrialCriterion=	30
+
+[Blc 2 - T1]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	12  [{Número de comparações nas tentativas do Bloco 2 = 12}]
+
+C1Bnd=	362 890 100 100  [{Aqui começa a comparação 1 da tentativa 1 do Bloco 2}]
+C1Stm=	C4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	C4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+C2Bnd=	362 490 100 100 [{Aqui começa a comparação 2 da tentativa 1 do Bloco 2}]
+C2Stm=	D2.jpg 0 255
+C2Sch=	FR 2
+C2IET=	Escolher 0 255
+C2Usb=	0
+C2Csq=	0
+C2Msg=	D2
+C2Res=	MISS
+C2Nxt=	CRT
+C2TO=	
+
+[{...}]
+
+C12Bnd=	162 890 100 100 [{Aqui começa a comparação 12 da tentativa 1 do Bloco 2}]
+C12Stm=	D12.jpg 0 255
+C12Sch=	FR 2
+C12IET=	Escolher 0 255
+C12Usb=	0
+C12Csq=	0
+C12Msg=	D12
+C12Res=	MISS
+C12Nxt=	CRT
+C12TO=	
+
+[Blc 2 - T2] [{Aqui começa a tentativa 2 do Bloco 2}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	12
+
+C1Bnd=	562 290 100 100
+C1Stm=	A4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	A4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+ [{...}]
+ 
+C12Bnd=	362 690 100 100
+C12Stm=	B12.jpg 0 255
+C12Sch=	FR 2
+C12IET=	Escolher 0 255
+C12Usb=	0
+C12Csq=	0
+C12Msg=	B12
+C12Res=	MISS
+C12Nxt=	CRT
+C12TO=	
+
+[Blc 2 - T3]  [{Aqui começa a tentativa 3 do Bloco 2}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	12
+
+C1Bnd=	162 490 100 100
+C1Stm=	A4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	A4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+[Blc 2 - T30]  [{Aqui começa a tentativa 30 do Bloco 2}]
+
+Name=	Tentativa 1
+Kind=	SIMPLE
+BkGnd=	0
+Cursor=	-1
+AutoNxt=	-1
+CustomNxtValue=	0
+
+NumComp=	12
+
+C1Bnd=	162 890 100 100
+C1Stm=	E4.jpg 0 255
+C1Sch=	FR 2
+C1IET=	Escolher 0 255
+C1Usb=	3
+C1Csq=	0
+C1Msg=	E4
+C1Res=	HIT
+C1Nxt=	0
+C1TO=	
+
+C2Bnd=	562 490 100 100
+C2Stm=	E2.jpg 0 255
+C2Sch=	FR 2
+C2IET=	Escolher 0 255
+C2Usb=	0
+C2Csq=	0
+C2Msg=	E2
+C2Res=	MISS
+C2Nxt=	CRT
+C2TO=	
+
+C3Bnd=	162 490 100 100
+C3Stm=	E3.jpg 0 255
+C3Sch=	FR 2
+C3IET=	Escolher 0 255
+C3Usb=	0
+C3Csq=	0
+C3Msg=	E3
+C3Res=	MISS
+C3Nxt=	CRT
+C3TO=	
+
+C4Bnd=	562 290 100 100
+C4Stm=	E1.jpg 0 255
+C4Sch=	FR 2
+C4IET=	Escolher 0 255
+C4Usb=	0
+C4Csq=	0
+C4Msg=	E1
+C4Res=	MISS
+C4Nxt=	CRT
+C4TO=	
+
+C5Bnd=	162 690 100 100
+C5Stm=	E5.jpg 0 255
+C5Sch=	FR 2
+C5IET=	Escolher 0 255
+C5Usb=	0
+C5Csq=	0
+C5Msg=	E5
+C5Res=	MISS
+C5Nxt=	CRT
+C5TO=	
+
+C6Bnd=	362 690 100 100
+C6Stm=	E6.jpg 0 255
+C6Sch=	FR 2
+C6IET=	Escolher 0 255
+C6Usb=	0
+C6Csq=	0
+C6Msg=	E6
+C6Res=	MISS
+C6Nxt=	CRT
+C6TO=	
+
+C7Bnd=	162 290 100 100
+C7Stm=	E7.jpg 0 255
+C7Sch=	FR 2
+C7IET=	Escolher 0 255
+C7Usb=	0
+C7Csq=	0
+C7Msg=	E7
+C7Res=	MISS
+C7Nxt=	CRT
+C7TO=	
+
+C8Bnd=	362 290 100 100
+C8Stm=	E8.jpg 0 255
+C8Sch=	FR 2
+C8IET=	Escolher 0 255
+C8Usb=	0
+C8Csq=	0
+C8Msg=	E8
+C8Res=	MISS
+C8Nxt=	CRT
+C8TO=	
+
+C9Bnd=	762 290 100 100
+C9Stm=	E9.jpg 0 255
+C9Sch=	FR 2
+C9IET=	Escolher 0 255
+C9Usb=	0
+C9Csq=	0
+C9Msg=	E9
+C9Res=	MISS
+C9Nxt=	CRT
+C9TO=	
+
+C10Bnd=	562 890 100 100
+C10Stm=	E10.jpg 0 255
+C10Sch=	FR 2
+C10IET=	Escolher 0 255
+C10Usb=	0
+C10Csq=	0
+C10Msg=	E10
+C10Res=	MISS
+C10Nxt=	CRT
+C10TO=	
+
+C11Bnd=	362 890 100 100
+C11Stm=	E13.jpg 0 255
+C11Sch=	FR 2
+C11IET=	Escolher 0 255
+C11Usb=	0
+C11Csq=	0
+C11Msg=	E13
+C11Res=	MISS
+C11Nxt=	CRT
+C11TO=	
+
+C12Bnd=	762 890 100 100
+C12Stm=	E12.jpg 0 255
+C12Sch=	FR 2
+C12IET=	Escolher 0 255
+C12Usb=	0
+C12Csq=	0
+C12Msg=	E12
+C12Res=	MISS
+C12Nxt=	CRT
+C12TO=	
+ [{Final do arquivo de sessão}]
+
 # Perguntas frequentes sobre os relatórios de sessão.
 
 ## Quais são os relatórios do EAM? 
