@@ -8,7 +8,7 @@ O EAM (Emparelhamento ao modelo) é um software de pesquisa do comportamento de 
  
 Um Arquivo de Sessão é um arquivo de configuração. Sua extensão é *.txt. Ao editar um arquivo de sessão, é possível dizer que você está programando uma sessão experimental ou planejando uma sessão de ensino. Esses arquivos possuem uma linguagem própria que o software lê e executa (por exemplo, dado o nome de um arquivo ".jpg"  e uma posição na tela o software carrega esse arquivo e mostra na tela a figura correspondente na posição lida. O Arquivo de Sessão tem uma estrutura característica, com variáveis globais que funcionam para uma sessão e variáveis locais que funcionam para uma tentativa.
  
-O arquivo de sessão permite o planejamento de uma grande variedade de situações de escolha e pode ser editado diretamente, para programar uma nova sessão a partir de modificaçes de uma sessão já pronta, ou pode-se utilizar a interface de edição.
+O arquivo de sessão permite o planejamento de uma grande variedade de situações de escolha e pode ser editado diretamente, para programar uma nova sessão a partir de modificações de uma sessão já pronta, ou pode-se utilizar a interface de edição.
  
 ## Como se planeja um Arquivo de Sessão?
  
