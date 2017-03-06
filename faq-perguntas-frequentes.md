@@ -60,7 +60,7 @@ OBS.: Atenção para letras maiúsculas e minúsculas e acentos, pois são aspec
  
 A ordem de aparecimento de cada [Secção] no arquivo de sessão não afeta sua configuração. Entretanto, há uma convenção de apresentá-las de acordo com a estrutura hierárquica do mais geral para o mais específico, com objetivo de facilitar a leitura. Cada [Secção] possui seu próprio conjunto de chaves. A ordem das chaves de uma mesma secção também não é importante. Frisa-se que a ordem de escrita dos valores de um parâmetro é importante.
 
-## Exemplo de Arquivo de Sessão (textos entre chaves [] não são lidos pelo programa; entre chaves {} foram explicações acrescentadas):
+## Exemplo de Arquivo de Sessão (textos entre colchetes [] não são lidos pelo programa; entre chaves {} foram explicações acrescentadas):
 
 [Main]
 
