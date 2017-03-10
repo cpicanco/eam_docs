@@ -1,7 +1,21 @@
 COMO INSTALAR O EAM
-O EAM não necessita de instalação já que o software é um auto executável. Para que o software funcione em seu computador, basta somente copiar a pasta com dois arquivos pré-existentes que são o “EAM” e o “inpout32.dll”. Após esse processo cole no local desejado pelo usuário e ele estará pronto para uso, porém, para o melhor uso é necessário criar diretórios antes que serão explicados a seguir.
+
+O EAM não necessita de instalação já que o software é um auto executável. Para que o software funcione em seu computador, basta somente 
+copiar a pasta com dois arquivos pré-existentes que são o “EAM” e o “inpout32.dll”. Após esse processo cole no local desejado pelo usuário
+e ele estará pronto para uso, porém, para o melhor uso é necessário criar diretórios antes que serão explicados a seguir.
 
 CRIANDO DIRETÓRIOS
-Assim que a pasta do EAM estiver criada, acesse-a. Dentro dessa pasta você encontrará somente 2 arquivos (EAM e o inpout32.dll). Crie uma nova pasta geral chamada “Arquivos” onde serão encontradas duas outras pastas “Relatórios” e “Estímulos” 
-Dentro da pasta Relatórios, é onde serão encontrados os relatórios salvos em formato “Documento de Texto(.txt)” após rodar a sessão, chamados “Dados_001.txt” e “Ticks_001.txt” (visualmente falando, esses dois relatórios são referentes a eventos específicos que aconteceram durante a sessão, como número de tentativas, quantas vezes o sujeito errou ou acertou, o tempo que levou para o sujeito escolher um estímulo, atraso, correções, entre outras coisas. Para mais informações acesse o GitHub>eep-lab/eam_docs>Como está estruturado o arquivo de relatório Dados_001?). É importante lembrar que esse arquivo relatório não é o arquivo de configuração, pois o arquivo de configuração é o arquivo salvo “txt” que contém a estrutura da sessão.
-Dentro da pasta Estímulos, é onde serão encontradas as imagens/estímulos que serão utilizados na sessão. Essas imagens devem ser salvas preferencialmente em formato “JPEG” com dimensões entre 140 a 180 x 140 a 180 (é importante manter a altura e o comprimento iguais ex: 160x160, para que a imagem não fique distorcida).
+
+Assim que a pasta do EAM estiver criada, acesse-a. Dentro dessa pasta você encontrará somente 2 arquivos (EAM e o inpout32.dll). 
+Crie uma nova pasta geral chamada “Arquivos” onde serão encontradas duas outras pastas “Relatórios” e “Estímulos” 
+
+Dentro da pasta Relatórios, é onde serão encontrados os relatórios salvos em formato “Documento de Texto(.txt)” após rodar a 
+sessão, chamados “Dados_001.txt” e “Ticks_001.txt” (visualmente falando, esses dois relatórios são referentes a eventos específicos 
+que aconteceram durante a sessão, como número de tentativas, quantas vezes o sujeito errou ou acertou, o tempo que levou para o sujeito 
+escolher um estímulo, atraso, correções, entre outras coisas. Para mais informações acesse o GitHub>eep-lab/eam_docs>Como está estruturado
+o arquivo de relatório Dados_001?). É importante lembrar que esse arquivo relatório não é o arquivo de configuração, pois o arquivo de 
+configuração é o arquivo salvo “txt” que contém a estrutura da sessão.
+
+Dentro da pasta Estímulos, é onde serão encontradas as imagens/estímulos que serão utilizados na sessão. Essas imagens devem ser salvas 
+preferencialmente em formato “JPEG” com dimensões entre 140 a 180 x 140 a 180 (é importante manter a altura e o comprimento iguais 
+ex: 160x160, para que a imagem não fique distorcida).
