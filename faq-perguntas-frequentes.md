@@ -64,11 +64,11 @@ A ordem de aparecimento de cada [Secção] no arquivo de sessão não afeta sua 
 
 [Main]
 
-Name=	DSS VIC NOVO TREINO
+Name=	Nome da Sessão
 Type=	CRT
-HootMedia=	EstÌmulos N.N
-HootData=	DADOS VICT”RIA
-NumBlc=	2
+HootMedia= Nome da Pasta com os arquivos de estímulo.
+HootData=	Nome da Pasta onde o programa vai salvar os dados "Dados_00X.txt" e "Ticks_00X.txt"
+NumBlc=	Número de blocos programados
 
 [Positions]
 
