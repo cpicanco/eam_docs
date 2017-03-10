@@ -19,18 +19,18 @@ de estímulo.
 
 PARÂMETROS REFERENTES AO ARQUIVO EM GERAL
 
-1.	[Main]: Refere-se às características gerais da sessão. Todo arquivo de estímulo, para funcionar, deve começar com esta inscrição em 
-sua primeira linha. 
+1.	[Main]: Refere-se às características gerais da sessão. Todo arquivo de estímulo, para funcionar, deve começar com esta inscrição 
+em sua primeira linha. 
 2.	Name: A edição deste campo serve de título para o arquivo de estímulo, facilitando ao pesquisador o entendimento das contingências 
 programadas.
-3.	NumBloc: Indica a quantidade de blocos de tentativas  que serão lidas em um arquivo. A sessão começa sempre no início de cada bloco. 
-As instruções dadas neste manual embasam a programação de todas as tentativas em um único bloco.
-4.	Hootmedia: Indica a pasta onde estão guardados os estímulos usados nas sessões do EAM. Sugere-se que cada professor da EEP crie uma 
-pasta do seu sujeito e relacione seu arquivo de estímulo essa pasta neste campo.
+3.	NumBloc: Indica a quantidade de blocos de tentativas  que serão lidas em um arquivo. A sessão começa sempre no início de cada 
+bloco. As instruções dadas neste manual embasam a programação de todas as tentativas em um único bloco.
+4.	Hootmedia: Indica a pasta onde estão guardados os estímulos usados nas sessões do EAM. Sugere-se que cada professor da EEP crie 
+uma pasta do seu sujeito e relacione seu arquivo de estímulo essa pasta neste campo.
 5.	Hootdata: Indica a pasta onde o programa criará os relatórios das sessões. O professor da EEP deve colocar neste campo o nome da 
-pasta que guardará os relatórios de seu sujeito. O programa de criará a pasta de relatório de sessões automaticamente após a primeira 
-sessão coletada. Este campo deve ser preenchido sempre da mesma maneira para que todas as sessões coletadas sejam criadas na mesma 
-pasta e o programa numerará os relatórios automaticamente.
+pasta que guardará os relatórios de seu sujeito. O programa de criará a pasta de relatório de sessões automaticamente após a 
+primeira sessão coletada. Este campo deve ser preenchido sempre da mesma maneira para que todas as sessões coletadas sejam criadas 
+na mesma pasta e o programa numerará os relatórios automaticamente.
 
 
 PARÂMETROS REFERENTES AOS BLOCOS DE TENTATIVAS
@@ -42,22 +42,22 @@ programadas.
 3.	Num Trial: Informa o número de tentativas que compõem o bloco.
 4.	BkGnd: Diz respeito a cor de fundo da tela na apresentação dos estímulos. 0 é referente à cor preta, mas outras possibilidades de 
 cores são possíveis mediante aos códigos numéricos.
-5.	ITI: Refere-se ao intervalo entre tentativas. No EAM, o tempo é contado sempre em milisegundos. Para obter o tempo desejado digite o 
-valor em segundos desejado multiplicado por 1000. Por exemplo para um ITI de 4s digite 4000.
+5.	ITI: Refere-se ao intervalo entre tentativas. No EAM, o tempo é contado sempre em milisegundos. Para obter o tempo desejado digite 
+o valor em segundos desejado multiplicado por 1000. Por exemplo para um ITI de 4s digite 4000.
 
 PARÂMETROS REFERENTES ÀS TENTATIVAS
 
 1.	Blc 1 – T1: Informa o número do bloco e a tentativa vigente. Com a sucessão das tentativas tem-se Blc 1 – T2, Blc 1 – T3, etc.
 2.	Name (no bloco): Informa o nome da tentativa na edição do relatório. O nome pode ser arbitrariamente definido pelo pesquisador.
-3.	Kind: Este parâmetro indica o tipo de tentativa realizada. A denominação “Simpl” especifica uma sessão de discriminação simples e a 
-denominação “MTS” faz com o programa execute uma sessão de discriminação condicional.
+3.	Kind: Este parâmetro indica o tipo de tentativa realizada. A denominação “Simpl” especifica uma sessão de discriminação simples e 
+a denominação “MTS” faz com o programa execute uma sessão de discriminação condicional.
 4.	BkGnd: Informa  a cor do fundo de tela em cada tentativa.
 5.	Cursor: É configurado como -1 para que ele não apareça na execução das tentativas do EAM.
-6.	Sucessivo: Digitar o numero “1” ativará o pareamento sucessivo ao passo que digitar “0” ativará o pareamento simultâneo entre modelo 
-e comparações.
+6.	Sucessivo: Digitar o numero “1” ativará o pareamento sucessivo ao passo que digitar “0” ativará o pareamento simultâneo entre 
+modelo e comparações.
 7.	Atraso: Quando o emparelhamento sucessivo é ativado, o do tempo do atraso entre o modelo e as comparações é definido neste campo. 
-Como o tempo no EAM é contado em milisegundos, digite 3000 para obter um intervalo de 3 segundos entre o desaparecimento do modelo e o 
-surgimento das comparações.
+Como o tempo no EAM é contado em milisegundos, digite 3000 para obter um intervalo de 3 segundos entre o desaparecimento do modelo e 
+o surgimento das comparações.
 
 PARÂMETROS REFERENTES AO MODELO
 
@@ -66,9 +66,9 @@ consulte a tabela de posições. (Ver Tabelas de Posições)
 2.	SStm: 	Refere-se ao nome do estímulo apresentado na tela cujo o arquivo está localizado na pasta hootdata. Para aproveitar o 
 Tabajara Session Generator, nomeie os estímulos da pasta hootdata como A1, A2, etc. Entretanto, é possível utilizar outros nomes na 
 identificação dos estímulos pelo programa.
-3.	SSch:	Especifica qual o esquema das respostas de tocar uma dada figura na tela que ativará a escolha do estímulo. É possível utilizar 
-esquemas como FR e VR. Escrever “FR 3” neste campo significa dizer que a escolha do modelo só será registrada após três toques. Do mesmo 
-modo, escrever “VR 3” ativará a escolha do modelo em uma taxa média de três respostas.
+3.	SSch:	Especifica qual o esquema das respostas de tocar uma dada figura na tela que ativará a escolha do estímulo. É possível 
+utilizar esquemas como FR e VR. Escrever “FR 3” neste campo significa dizer que a escolha do modelo só será registrada após três 
+toques. Do mesmo modo, escrever “VR 3” ativará a escolha do modelo em uma taxa média de três respostas.
 4.	Smsg:	 Indica como o estímulo vai aparecer no relatório e sua respectiva posição. Escrever neste campo “A1 – 7” implicará o 
 aparecimento desta notação no relatório, indicando que o estímulo A1 apareceu na posição 7.
 5.	NumComp: Informa o número de comparações exibidas na tela. 
@@ -77,9 +77,9 @@ PARÂMETROS REFERENTES ÀS COMPARAÇÕES
 
 1.	C1Bnd: Refere-se a posição onde o estímulo de comparação aparecerá na tela.
 2.	C1Stm: Indica o nome do estímulo dentro da pasta hootmedia que o programa lerá para exibi-lo na tela.
-3.	C1Sch: Indica o esquema que a resposta de tocar deve ocorrer para a efetivação da escolha do estímulo de comparação. Escrever “CRF” 
-neste campo indica que ocorrerá reforçamento para toques nos estímulos programados como corretos. Toques nos estímulos programados como 
-incorretos iniciarão o intervalo entre tentativas.
+3.	C1Sch: Indica o esquema que a resposta de tocar deve ocorrer para a efetivação da escolha do estímulo de comparação. Escrever 
+“CRF” neste campo indica que ocorrerá reforçamento para toques nos estímulos programados como corretos. Toques nos estímulos 
+programados como incorretos iniciarão o intervalo entre tentativas.
 4.	C1Csq: Refere-se liberação da conseqüência. A notação “255” ativará todos os dispensadores de pelotas conectados ao computador. 
 Havendo mais de um dispensador de pelotas conectado, é possível programar que cada um seja ativado com acertos para cada tipo de 
 tentativa durante a sessão. 
@@ -94,9 +94,9 @@ incorreta na 15ª tentativa basta escrever neste campo “[Blc 1 – T15]”.
 O EAM “Tabajara Session Generator”
 
 Com tantos parâmetros descritos acima, editar uma sessão torna-se custoso e demorado, propiciando muitas vezes erros na edição. Para 
-ser ter idéia, um arquivo de estímulo para executar uma sessão de IDMTS com quatro escolhas pode ter mais de 40 páginas. Por isso, foi 
-criada uma ferramenta que minimizasse o trabalho mecânico de redigitar todos este parâmetros a cada sessão, ou ainda de revisá-lo, pois 
-um pequeno erro pode impossibilitar da sessão.
+ser ter idéia, um arquivo de estímulo para executar uma sessão de IDMTS com quatro escolhas pode ter mais de 40 páginas. Por isso, 
+foi criada uma ferramenta que minimizasse o trabalho mecânico de redigitar todos este parâmetros a cada sessão, ou ainda de 
+revisá-lo, pois um pequeno erro pode impossibilitar da sessão.
 
 O EAM “Tabajara Session Generator”, criado por Paulo Roney Kilpp Goulart em colaboração com outros pesquisadores da EEP, reduziu 
 bastante os custos de edição dos arquivos de estímulos. Basicamente, a ferramenta reproduz um arquivo de sessão e possibilita que as 
@@ -107,7 +107,10 @@ inserção com termos de informática. Assim, as sessões podem ser construídas
 
 Instruções para construção de uma sessão
 
-As instruções abaixo são para a edição de um arquivo em MTS com 48 tentativas. Caso o objetivo seja um arquivo em discriminação simples, basta deixar os parâmetros do modelo em branco e utilizar as planilhas DS 48tr. Caso haja necessidade uma sessão mais curta, basta preencher um número menor de tentativas e seguir os passos abaixo, trabalhando com o número de tentativas desejado.   Segue abaixo os passos para a edição de um arquivo de estímulo, utilizando o EAM tabajara:
+As instruções abaixo são para a edição de um arquivo em MTS com 48 tentativas. Caso o objetivo seja um arquivo em discriminação 
+simples, basta deixar os parâmetros do modelo em branco e utilizar as planilhas DS 48tr. Caso haja necessidade uma sessão mais 
+curta, basta preencher um número menor de tentativas e seguir os passos abaixo, trabalhando com o número de tentativas desejado.   
+Segue abaixo os passos para a edição de um arquivo de estímulo, utilizando o EAM tabajara:
 
 1.	Abra o arquivo do EAM Tabajara Session Generator 3.0.
 2.	Vá até as planilhas “MTS 48tr 4ch”, “DS 48tr 4ch”, “DS 48tr 2ch” e especifique os locais do hootmedia e do hootdata. Eles indicarão 
