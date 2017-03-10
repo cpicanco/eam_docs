@@ -1,21 +1,28 @@
-COMO INSTALAR O EAM
+COMO INSTALAR O EAM 
 
 O EAM não necessita de instalação já que o software é um auto executável. Para que o software funcione em seu computador, basta somente 
-copiar a pasta com dois arquivos pré-existentes que são o “EAM” e o “inpout32.dll”. Após esse processo cole no local desejado pelo usuário
-e ele estará pronto para uso, porém, para o melhor uso é necessário criar diretórios antes que serão explicados a seguir.
+copiar a pasta com dois arquivos pré-existentes que são o “EAM” e o “inpout32.dll”. Após esse processo cole no local desejado pelo usuário. Dê um clique duplo no icone "eam 4.3" e ele executará e ficará pronto para ser configurado, porém, para o melhor uso é necessário criar diretórios antes de iniciar uma configuração de sessão.
 
 CRIANDO DIRETÓRIOS
 
-Assim que a pasta do EAM estiver criada, acesse-a. Dentro dessa pasta você encontrará somente 2 arquivos (EAM e o inpout32.dll). 
-Crie uma nova pasta geral chamada “Arquivos” onde serão encontradas duas outras pastas “Relatórios” e “Estímulos” 
+Assim que a pasta do EAM estiver criada, acesse-a. Dentro dessa pasta você encontrará somente 2 arquivos (eam 4.3 e o inpout32.dll). 
+Crie uma nova pasta geral chamada “Arquivos” onde você usuário deverá colocar os estímulos (imagem, audio, animação ou video) que serão usados na sua sessão, e elém disso, crie mais uma pasta chamada “Relatórios". Obs. não há a necessidade de criar uma pasta de estímulos, pois, devido a testes feitos, de alguma forma o software não consegue identificar os estímulos se eles estiverem isolados, isso aparentemente é um dos bugs do programa. Dessa forma sugere-se que os estímulos sejam simplesmente colados na pasta arquivose não dentro de uma pasta.
 
-Dentro da pasta Relatórios, é onde serão encontrados os relatórios salvos em formato “Documento de Texto(.txt)” após rodar a 
-sessão, chamados “Dados_001.txt” e “Ticks_001.txt” (visualmente falando, esses dois relatórios são referentes a eventos específicos 
-que aconteceram durante a sessão, como número de tentativas, quantas vezes o sujeito errou ou acertou, o tempo que levou para o sujeito 
-escolher um estímulo, atraso, correções, entre outras coisas. Para mais informações acesse o GitHub>eep-lab/eam_docs>Como está estruturado
-o arquivo de relatório Dados_001?). É importante lembrar que esse arquivo relatório não é o arquivo de configuração, pois o arquivo de 
-configuração é o arquivo salvo “txt” que contém a estrutura da sessão.
+Estímulos
 
-Dentro da pasta Estímulos, é onde serão encontradas as imagens/estímulos que serão utilizados na sessão. Essas imagens devem ser salvas 
-preferencialmente em formato “JPEG” com dimensões entre 140 a 180 x 140 a 180 (é importante manter a altura e o comprimento iguais 
-ex: 160x160, para que a imagem não fique distorcida).
+Quando o usuário estiver procurando estímulos na internet para serem usados na sua sessão, o mesmo deve ficar atendo para o formato suportado pelo software. Para cada mídia, formatos específicos são exigidos. 
+Caso o usuário queira usar imagens como estímulos, o mesmo deverá optar pelos seguintes formatos: JPEG ou BMP com dimensões variando entre 140 a 180 x 140 a 180 (é importante manter a altura e o comprimento iguais ex: 160x160, para que a imagem não fique distorcida). Se quiser uma animação o formato deve ser: GIF. Para os arquivos de audio, o formato deve ser: MAV ou MID. Por fim, se for utilizar vídeos, o formato deve ser: MPG, AVI, MOV ou WMV. 
+
+Para o audio, qual a duação? Seg, min, h?
+Para a animação...
+Para o vídeo, qual o tamanho suportado? Kb, MB ou GB? Seg, min, h?
+Ainda precisamos colocar em teste esses tipos de mídia para ver quais as exigências mínimas e máximas suportadas pelo software.
+
+Relatórios
+
+Dentro da pasta Relatórios, é onde serão salvos os arquivos em formato “txt” após rodar a sessão, chamados “Dados_001.txt” e “Ticks_001.txt” (visualmente falando, esses dois relatórios são referentes a eventos específicos que aconteceram durante a sessão, como número de tentativas, quantas vezes o sujeito errou ou acertou, o tempo que levou para o sujeito escolher um estímulo, atraso, correções, entre outras coisas. Para mais informações acesse o GitHub>eep-lab/eam_docs>Como está estruturado o arquivo de relatório Dados_001?). É importante lembrar que esse arquivo relatório não é o arquivo de configuração, pois o arquivo de configuração é o arquivo salvo “txt” que contém a estrutura da sessão e não o que ocorreu durante a sessão.
+
+CONFIGURANDO UMA SESSÃO
+
+A ser desenvolvido...
+Ainda temos algumas perguntas pendentes a serem respondidas, observei que quando o EAM está instalado em máquinas diferentes o software tem algum tipo de bug no qual não consegue identificar as imagens. Isso aconteceu comigo (will) e com a Paola.
