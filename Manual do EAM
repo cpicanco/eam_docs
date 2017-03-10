@@ -115,17 +115,17 @@ Segue abaixo os passos para a edição de um arquivo de estímulo, utilizando o 
 1.	Abra o arquivo do EAM Tabajara Session Generator 3.0.
 2.	Vá até as planilhas “MTS 48tr 4ch”, “DS 48tr 4ch”, “DS 48tr 2ch” e especifique os locais do hootmedia e do hootdata. Eles 
 indicarão a pasta onde os estímulos serão lidos e em que pasta do computador serão gerados os relatórios de sessão, respectivamente.
-3.	Vá até planilha “Tabajara Balanceator” e preencha nos campos de acordo com os tipos de tentativas desejadas. É possível colocar os 
-estímulos que serão utilizados em cada tentativa, os estímulos da linha da linha de base e de teste. Atente que o número de 
+3.	Vá até planilha “Tabajara Balanceator” e preencha nos campos de acordo com os tipos de tentativas desejadas. É possível colocar 
+os  estímulos que serão utilizados em cada tentativa, os estímulos da linha da linha de base e de teste. Atente que o número de 
 comparações se dará em função dos campos preenchidos. Selecione as tentativas e copie.
 4.	Vá até a planilha “Tabajara (Des)organizator” e cole os dados.
 5.	Vá até a planilha “Bagunçator” selecione uma das seqüências verticais e copie.
-6.	Volte na planilha “Tabajara (Des)organizator” e cole a seqüência na coluna da extrema esquerda. Selecione todas as linhas e use a 
-função “ordenar” em ordem crescente. O programa embaralhará as linhas, separando as preenchidas das em branco. Selecione as linhas 
-sem os espaços e copie.
+6.	Volte na planilha “Tabajara (Des)organizator” e cole a seqüência na coluna da extrema esquerda. Selecione todas as linhas e 
+use a função “ordenar” em ordem crescente. O programa embaralhará as linhas, separando as preenchidas das em branco. Selecione as 
+linhas sem os espaços e copie.
 7.	Vá até a planilha “Gabarito” e cole os dados.
-8.	Vá até a planilha “(DES)Sequenciator” e selecione seqüências verticais para as comparações. Selecionas e cole uma de cada vez no 
-gabarito. 
+8.	Vá até a planilha “(DES)Sequenciator” e selecione seqüências verticais para as comparações. Selecionas e cole uma de cada 
+vez no gabarito. 
 9.	Vá até a planilha “Desseq Mod” Repita o passo 8 com o modelo.
 10.	Vá até a planilha “gabarito” e preencha o campo nome para cada tentativa. Confira se todos aos campos estão preenchidos 
 corretamente. O gabarito está pronto. 
