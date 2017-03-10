@@ -113,11 +113,11 @@ curta, basta preencher um número menor de tentativas e seguir os passos abaixo,
 Segue abaixo os passos para a edição de um arquivo de estímulo, utilizando o EAM tabajara:
 
 1.	Abra o arquivo do EAM Tabajara Session Generator 3.0.
-2.	Vá até as planilhas “MTS 48tr 4ch”, “DS 48tr 4ch”, “DS 48tr 2ch” e especifique os locais do hootmedia e do hootdata. Eles indicarão 
-a pasta onde os estímulos serão lidos e em que pasta do computador serão gerados os relatórios de sessão, respectivamente.
+2.	Vá até as planilhas “MTS 48tr 4ch”, “DS 48tr 4ch”, “DS 48tr 2ch” e especifique os locais do hootmedia e do hootdata. Eles 
+indicarão a pasta onde os estímulos serão lidos e em que pasta do computador serão gerados os relatórios de sessão, respectivamente.
 3.	Vá até planilha “Tabajara Balanceator” e preencha nos campos de acordo com os tipos de tentativas desejadas. É possível colocar os 
-estímulos que serão utilizados em cada tentativa, os estímulos da linha da linha de base e de teste. Atente que o número de comparações 
-se dará em função dos campos preenchidos. Selecione as tentativas e copie.
+estímulos que serão utilizados em cada tentativa, os estímulos da linha da linha de base e de teste. Atente que o número de 
+comparações se dará em função dos campos preenchidos. Selecione as tentativas e copie.
 4.	Vá até a planilha “Tabajara (Des)organizator” e cole os dados.
 5.	Vá até a planilha “Bagunçator” selecione uma das seqüências verticais e copie.
 6.	Volte na planilha “Tabajara (Des)organizator” e cole a seqüência na coluna da extrema esquerda. Selecione todas as linhas e use a 
