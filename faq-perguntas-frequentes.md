@@ -95,9 +95,9 @@ NumBlc=	2
 ; as linhas P1 a P16 mostram as coordenadas das posições na tela.
 
 ; as telas dos monitores de computador possuem a coordenada 0, 0 no canto superior esquerdo.
-; a quantidade de pixels da esquerda para a direita chama-se left.
-; a quantidade de pixels do topo para baixo chama-se right.
-; cada posição também possui um comprimento e uma altura, width and height.
+; a quantidade de pixels até o primeiro pixel da posição da esquerda para a direita chama-se left.
+; a quantidade de pixels até o primeiro pixel da posição do topo para baixo chama-se top.
+; cada posição também possui um comprimento e uma altura (width and height).
 
 ; número de linhas da matriz de estímulos criada por meio da interface.
 Rows=	4
