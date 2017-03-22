@@ -1,11 +1,11 @@
-COMO INSTALAR O EAM 
+# COMO INSTALAR O EAM 
 
 O EAM não necessita de instalação já que o software é um auto executável. Para que o software funcione em seu computador, 
 basta somente copiar a pasta com dois arquivos pré-existentes que são o “eam 4.3” e o “inpout32.dll”. Após esse processo 
 cole no local desejado pelo usuário. Dê um clique duplo no icone "eam 4.3" e ele executará e ficará pronto para ser 
 configurado, porém, é necessário antes de iniciar uma configuração de sessão para criar diretórios de dados e estímulos.
 
-CRIANDO DIRETÓRIOS
+# CRIANDO DIRETÓRIOS
 
 Assim que a pasta do EAM 4.3 estiver criada, acesse-a. Dentro dessa pasta você encontrará somente 2 arquivos 
 (eam 4.3 e o inpout32.dll).
@@ -21,7 +21,8 @@ Assim que a pasta do EAM 4.3 estiver criada, acesse-a. Dentro dessa pasta você 
 9. Clique em "Criar Nova Pasta" e nomeie a pasta com o nome "Estímulos" e clique em OK. 
 10. Depois de criadas as pastas clique em "Avançar" e os diretórios estarão criados.
 
-ARQUIVOS DOS DIRETÓRIOS
+# ARQUIVOS DOS DIRETÓRIOS
+
 Pasta - Estímulos
 
 Nesta pasta serão encontrados arquivos em mídia (imagem, animação, audio ou vídeo).
@@ -34,18 +35,23 @@ distorcida). Se quiser uma animação o formato deve ser: GIF. Para os arquivos 
 Por fim, se for utilizar vídeos, o formato deve ser: MPG, AVI, MOV ou WMV.
 
 Obs. 
-Para o audio, qual a duação? Seg, min, h?
-Para a animação...
-Para o vídeo, qual o tamanho suportado? Kb, MB ou GB? Seg, min, h?
-Ainda precisamos colocar em teste esses tipos de mídia para ver quais as exigências mínimas e máximas suportadas pelo 
-software.
+O software não restringe o uso de mídias (sons, vídeos ou animações) com base em tamanho e duração.
+O software restringe o uso de mídias com base em extenções (.bmp,.wav,.mov,.gif, e assim por diante).
+As extenções permitidas podem ser conferidas [aqui](https://github.com/eep-lab/eam/blob/master/Units/uKey.pas#L366-L384).
+
+Entretanto, considerando um computador com processador Pentium Core 2 Duo com 2gb de memória (DDR2),
+recomenda-se o uso de mídias com no máximo 2 mb para que o carregamento e descarregamento das mídias
+ocorram com o mínimo de atraso (~200 ms). Tamanhos maiores tenderão a gerar maiores atrasos entre tentativas.
+
+Ainda precisamos colocar em teste esses tipos de mídia para ver
+quais as exigências mínimas e máximas suportadas por outros computadores rodando o software.
 
 Obs. 2: O software carrega e descarrega vídeos, sons e imagens em tempo real.
 Isso significa que o computador deve possuir mais processamento e memória
 para que mídias grandes (> 2 mb) sejam carregadas e descarregadas com o mínimo de atraso entre tentativas.
 
 
-Pasta - Dados
+# Pasta - Dados
 
 Dentro da pasta Dados, é onde serão salvos os arquivos em formato “txt” após rodar a sessão, chamados “Dados_001.txt” e 
 “Ticks_001.txt”, referentes a eventos específicos que aconteceram durante a sessão, como: número de tentativas, quantas 
