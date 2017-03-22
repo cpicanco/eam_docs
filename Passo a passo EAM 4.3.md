@@ -23,7 +23,7 @@ Assim que a pasta do EAM 4.3 estiver criada, acesse-a. Dentro dessa pasta você 
 
 # ARQUIVOS DOS DIRETÓRIOS
 
-Pasta - Estímulos
+## Pasta - Estímulos
 
 Nesta pasta serão encontrados arquivos em mídia (imagem, animação, audio ou vídeo).
 
@@ -51,7 +51,7 @@ Isso significa que o computador deve possuir mais processamento e memória
 para que mídias grandes (> 2 mb) sejam carregadas e descarregadas com o mínimo de atraso entre tentativas.
 
 
-# Pasta - Dados
+## Pasta - Dados
 
 Dentro da pasta Dados, é onde serão salvos os arquivos em formato “txt” após rodar a sessão, chamados “Dados_001.txt” e 
 “Ticks_001.txt”, referentes a eventos específicos que aconteceram durante a sessão, como: número de tentativas, quantas 
