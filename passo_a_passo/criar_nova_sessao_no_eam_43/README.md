@@ -5,7 +5,7 @@ Este tutorial pressupõe o estudo anterior do Passo a Passo EAM 4.3 disponível 
 Abra o EAM 
 Abra o EAM 4.3
 
-passo_a_passo/criar_nova_sessao_no_eam_43/Figura 1.jpg
+https://github.com/eep-lab/eam_docs/blob/255e15e2bbf604196719527e6318e371ee1a8e2f/passo_a_passo/criar_nova_sessao_no_eam_43/Figura%201.jpg
 
 Após abrir o EAM 4.3 clique em ARQUIVO\VISUALIZAR/EDITAR SESSÃO
 
