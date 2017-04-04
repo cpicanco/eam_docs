@@ -5,7 +5,7 @@ Este tutorial pressupõe o estudo anterior do Passo a Passo EAM 4.3 disponível 
 Abra o EAM 
 Abra o EAM 4.3
 
-https://octodex.github.com/passo_a_passo/criar_nova_sessao_no_eam_43/Figura1.jpg
+![Figura 1](Figura_01.jpg)
 
 Após abrir o EAM 4.3 clique em ARQUIVO\VISUALIZAR/EDITAR SESSÃO
 
