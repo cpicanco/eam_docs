@@ -49,35 +49,48 @@ Serve para configurar as imagens que irão aparecer nas tentativas dos blocos. V
 
 ![Figura 10](Figura_10.jpg)
 
+![Figura 11](Figura_11.jpg)
+
 Agora vejamos como programar os estímulos se for selecionada a opção “discriminação condicional”. Diferentemente da opção “discriminação simples”, que tem apenas comparações simultâneas, na discriminação condicional há um modelo. Programe o número de comparações, coloque a figura do modelo e a de comparação C1+, que é a comparação correta. Em seguida programe as comparações negativas C2-, etc, conforme o número de comparações escolhido para a tentativa. O esquema deve ser escolhido (“FR. CRF...) em letras maiúsculas seguidas pelo número de toques no estímulo. Por exemplo, FR 2. No campo relatório você pode colocar um nome qualquer para o estímulo para aparecer no relatório. Você deve colocar o número da porta USB, à qual o dispositivo externo como o dispensador de pelotas está ligado. Todas as alterações que for fazendo clique em qualquer janelinha branca para salvar. Quando terminar clique em aplicar.
  
- 
- 
 Se você desejar que a mesma tentativa se repita na sessão, há uma forma de copiá-la pra não ter que escrever todos os dados novamente. Você também pode fazer isso se alguns dados forem os mesmos para todas as tentativas. Para fazer isso você deve:
 
 4ª CAIXA: Estrutura da sessão
-
 a) Marcar as tentativas que você deseja repetir, clicando nas tentativas.
-
+![Figura 12](Figura_12.jpg)
 
 b) Clique na checkmark laranja e escolha a quais tentativas irá aplicar e na checkmark verde ao lado para escolher o que quer copiar para as tentativas. Se forem idênticas, marque tudo. Caso contrário, basta selecionar o que desejar. Após fazer isso clique em aplicar e verifique se foram copiadas, navegando nas tentativas, mudando o número da tentativa na caixa Ferramentas. Assim você pode criar um bloco com todas as tentativas iguais e depois fazer as mudanças em cada uma, o que pode ser mais fácil do que programar cada tentativa, dependendo da estrutura do bloco de tentativas que está sendo programado. Programe se a discriminação condicional será simujltânea ou com atraso, e o valor do atraso (1000 = 1 segundo).
 
+![Figura 13](Figura_13.jpg)
+
 Após construir todas as tentativas da sessão você poderá aleatorizar as posições em que os estímulos aparecem clicando no botão marcado abaixo:
+
+![Figura 14](Figura_14.jpg)
 
 Será mostrada a janela abaixo. Você deve clicar em aleatorizar. Se clicar novamente no botão nova aleatorização será feita. Você pode também digitar na matriz o número da posição em que quer que o estímulo apareça. Nos casos em que o modelo e a comparação estão aparecendo na mesma posição aparecem marcações em vermelho que nos chamam a atenção para reprogramar a posição de um dos dois, o que é necessário no caso de discriminações condicionais simultâneas. Após obter a sequência desejada, é só clicar em aplicar e fechar a tela.   
 
+![Figura 15](Figura_15.jpg)
+
 Você também pode aleatorizar a sequencia de apresentação das tentativas clicando no botão marcado abaixo
+
+![Figura 16](Figura_16.jpg)
 
 Você verá a tela abaixo. Deve clicar em aleatorizar ou mover as linhas para cima ou para baixo com o mouse para mudar a posição. Depois é só aplicar e fechar a tela.
 
+![Figura 17](Figura_17.jpg)
 
 Sua sessão já está quase pronta, agora é só SALVAR na PASTA DE DADOS QUE VOCÊ CRIOU NO INÍCIO.
 Para rodar a sua sessão você vai clicar em abrir e escolher o arquivo.
 
-Agora clique na setinha verde.
+![Figura 18](Figura_18.jpg)
+
+Agora clique em "play" conforme a figura mostra.
+
+![Figura 19](Figura_19.jpg)
 
 Na tela que se abrirá escreva o nome do sujeito e da sessão experimental e clique em ok. A sessão será iniciada.
 
+![Figura 20](Figura_20.jpg)
 
 Algumas vezes ao rodar a sessão pode aparecer um quadrado vermelho ao invés do estímulo. Neste caso, verifique se os estímulos estão salvos na pasta correta.   
 Se o programa “der bug” travar quando você estiver utilizando a caixa Tentativas e selecionando as comparações, tente clicar alternando entre as comparações (C1+, C2-, etc).   
