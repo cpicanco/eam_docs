@@ -6,9 +6,10 @@ Abra o EAM
 Abra o EAM 4.3   
 
 ![Figura 1](Figura_01.jpg)
-![Figura 1](Figura_01.jpg)
 
 Após abrir o EAM 4.3 clique em ARQUIVO -> VISUALIZAR/EDITAR SESSÃO
+
+![Figura 2](Figura_02.jpg)
 
 Será apresentada a janela ferramentas, clique em NOVA SESSÃO
 
