@@ -34,21 +34,25 @@ Então serão apresentadas 4 caixas:
  
 1ª CAIXA: Ferramentas
 
+![Figura 8](Figura_08.jpg)
+
 No Controle de Exibição, escolha qual bloco e qual tentativa você quer programar.
 ESCOLHER A RESOLUÇAO: deve ser a mesma resolução definida anteriormente.
-
 
 2ª CAIXA: BLOCOS 
 Para configurar cada bloco, é necessário definir o número de tentativas, o Intervalo entre Tentativas, os critérios para o encerramento do bloco (número de Acertos consecutivos, de erros consecutivos e o máximo de tentativas). Defina o máximo de correções para respostas erradas  (repetição da mesma tentativa em caso de erro); zero é sem correção. A opção Acertos para K+Csq serve para programar mensagem na tela durante o IET, -1 é “sem mensagem”. Após preencher clique em aplicar.
 
+![Figura 9](Figura_09.jpg)
  
 3ª CAIXA: Tentativas
 Serve para configurar as imagens que irão aparecer nas tentativas dos blocos. Você vai definir se a tentativa é de discriminação simples ou condicional. Trataremos primeiro das sessões de discriminação simples. Defina o número de comparações da tentativa e coloque as figuras das comparações. O esquema deve ser escolhido (“FR. CRF...) em letras maiúsculas seguidas pelo número de toques no estímulo. Por exemplo, FR 2. No campo relatório você pode colocar um nome qualquer para o estímulo para aparecer no relatório. Você deve colocar o número da porta USB, à qual o dispositivo externo como o dispensador de pelotas está ligado. Todas as alterações que for fazendo clique em qualquer janelinha branca para salvar. Quando terminar clique em aplicar.
 
-
+![Figura 10](Figura_10.jpg)
 
 Agora vejamos como programar os estímulos se for selecionada a opção “discriminação condicional”. Diferentemente da opção “discriminação simples”, que tem apenas comparações simultâneas, na discriminação condicional há um modelo. Programe o número de comparações, coloque a figura do modelo e a de comparação C1+, que é a comparação correta. Em seguida programe as comparações negativas C2-, etc, conforme o número de comparações escolhido para a tentativa. O esquema deve ser escolhido (“FR. CRF...) em letras maiúsculas seguidas pelo número de toques no estímulo. Por exemplo, FR 2. No campo relatório você pode colocar um nome qualquer para o estímulo para aparecer no relatório. Você deve colocar o número da porta USB, à qual o dispositivo externo como o dispensador de pelotas está ligado. Todas as alterações que for fazendo clique em qualquer janelinha branca para salvar. Quando terminar clique em aplicar.
  
+ 
+ 
 Se você desejar que a mesma tentativa se repita na sessão, há uma forma de copiá-la pra não ter que escrever todos os dados novamente. Você também pode fazer isso se alguns dados forem os mesmos para todas as tentativas. Para fazer isso você deve:
 
 4ª CAIXA: Estrutura da sessão
