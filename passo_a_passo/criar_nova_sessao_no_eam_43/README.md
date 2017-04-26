@@ -13,14 +13,24 @@ Após abrir o EAM 4.3 clique em ARQUIVO -> VISUALIZAR/EDITAR SESSÃO
 
 Será apresentada a janela ferramentas, clique em NOVA SESSÃO
 
+![Figura 3](Figura_03.jpg)
+
 Então abrir-se-á uma nova janela na qual você deverá dar um NOME DA SESSÃO (caso você deixe de nomear, isso não comprometerá a execução da sessão). Em seguida clique duas vezes na PASTA DE ESTÍMULOS para escolher os arquivos de estímulos da sessão (%\Dados\estímulos) então clique duas vezes na PASTA DE DADOS e escolha a pasta que o programa utilizará para armazenar os arquivos de relatórios da sessão (%\Dados\). Defina o número de BLOCOS e clique em AVANÇAR.
+
+![Figura 4](Figura_04.jpg)
 
 Na próxima janela, teremos a estrutura física da sessão, como os estímulos irão aparecer na tela. Você vai configurar a matriz. Escolha o número de linhas e colunas, o comprimento, a altura e a distância entre os estímulos. Não se esqueça de selecionar a caixa “quadrada” e “distribuir ou igualar”.
 A resolução do software deve ser compatível com a resolução da tela do computador por exemplo: 1280X1024.
 
+![Figura 5](Figura_05.jpg)
+
 Após o preenchimento destes dados, clique em mostrar e em seguida avançar para prosseguir. Após clicar em mostrar você verá as posições dos estímulos; você pode movimentar os estímulos clicando em cima e arrastar para posicioná-los onde quiser; para modificar a configuração você deve clicar em limpar. Clique em avançar para prosseguir.
 
+![Figura 6](Figura_06.jpg)
+
 Então serão apresentadas 4 caixas:
+ 
+![Figura 7](Figura_07.jpg)
  
 1ª CAIXA: Ferramentas
 
